@@ -1,5 +1,11 @@
+import ExampleLoginForm from "../components/example-login-form";
+
 function LoginPage() {
-  return <>_LOGIN_CONTENT_GOES_HERE_</>;
+  return (
+    <>
+      <ExampleLoginForm />
+    </>
+  );
 }
 
 export default LoginPage;

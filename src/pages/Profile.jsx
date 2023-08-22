@@ -1,5 +1,11 @@
+import ExampleProfile from "../components/example-profile";
+
 function ProfilePage() {
-  return <>_PROFILE_CONTENT_GOES_HERE_</>;
+  return (
+    <>
+      <ExampleProfile />
+    </>
+  );
 }
 
 export default ProfilePage;
